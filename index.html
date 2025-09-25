@@ -9,24 +9,25 @@
 <body>
     <div class="container">
         <div class="jeux">
-            <h1>JEAUX CALCULATEUR</h1>
+            <h1>JEUX CALCULATEUR</h1>
 
         <div class="gameNumber">
-            <div>45</div>
-            <div>+</div>
-            <div>45</div>
-            <div>=</div>
-            <div>90</div>
+            <div id="number1"></div>
+            <div id="operator">+</div>
+            <div id="number2"></div>
+            <div id="operator">=</div>
+            <div id="reponse"></div>
         </div>
 
         <div>
-            <input type="text" class="resultat">
-            <button class="valider">Valider</button>
+            <input type="text" class="resultat" id="resultat" placeholder="Votre Resultat">
+            <button class="valider" onclick="validate()">Valider</button>
         </div>
         </div>
     </div>
 
     <script src="app.js"></script>
+    
     
 </body>
 </html>
