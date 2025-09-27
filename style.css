@@ -38,7 +38,7 @@ input {
     width: 100%;
 }
 
-button {
+.valider1 {
     display: block;
     padding: 10px;
     border: none;
@@ -47,6 +47,17 @@ button {
     cursor: pointer;
     font-size: 1rem;
     width: 100%;
+}
+.valider2{
+     display: block;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #eee81f;
+    cursor: pointer;
+    margin-top:20px;
+    font-size: 1rem;
+    width:50%;
 }
 
 .gameNumber {
